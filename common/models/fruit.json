@@ -1,0 +1,25 @@
+{
+  "name": "Fruit",
+  "plural": "Fruits",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "FruitName": {
+      "type": "string",
+      "required": true,
+      "default": "Apple"
+    },
+    "FruitColor": {
+      "type": "string",
+      "required": true,
+      "default": "Red"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
